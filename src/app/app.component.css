@@ -1,0 +1,23 @@
+.body {
+  --hr-margin: 5px; 
+
+  height: 100vh;
+}
+
+.navigation {
+}
+
+main {
+}
+
+.footer {
+}
+
+.content {
+    overflow-y: auto;
+}
+
+hr {
+    margin-top: var(--hr-margin);
+    margin-bottom: var(--hr-margin);
+}

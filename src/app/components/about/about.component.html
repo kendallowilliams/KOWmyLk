@@ -1,0 +1,20 @@
+<div class="m-1" style="width: 50rem;">
+  <h4>Experience</h4>
+  <ul class="list-group d-inline-flex">
+    <li class="list-group-item bg-light" *ngFor="let experience of (about$ | async)?.experience"><strong>{{experience.key}}: </strong>{{experience.value}}</li>
+  </ul>
+</div>
+<br />
+<div class="m-1" style="width: 50rem;">
+  <h4>Skills</h4>
+  <ul class="list-group d-inline-flex">
+    <li class="list-group-item bg-light" *ngFor="let skill of (about$ | async)?.skills"><strong>{{skill.key}}: </strong>{{skill.value}}</li>
+  </ul>
+</div>
+<br />
+<div class="m-1"style="width: 50rem;">
+  <h4>Education</h4>
+  <ul class="list-group d-inline-flex">
+    <li class="list-group-item bg-light" *ngFor="let education of (about$ | async)?.education"><strong>{{education.key}}: </strong>{{education.value}}</li>
+  </ul>
+</div>

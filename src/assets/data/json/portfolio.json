@@ -1,0 +1,52 @@
+{
+  "title": "",
+  "description": "",
+  "projects": [{
+    "title": "Inventory Management",
+    "subtitle": "Browse and manage inventory",
+    "description": "HTML/CSS/JavaScript frontend with C/MySQL backend running on an Apache server.",
+    "links": [{
+      "name": "Browse",
+      "description": "Browse inventory and contact admin",
+      "url": "http://www.kowmylk.com:81"
+    }, {
+      "name": "Admin",
+      "description": "Manage inventory and users (user: kow, password: kow)",
+      "url": "http://www.kowmylk.com:81/admin.html"
+    }, {
+      "name": "Reset",
+      "description": "Click to reset data",
+      "url": "https://www.kowmylk.com/cgi-bin/reset_store.sh"
+    }, {
+      "name": "GitHub",
+      "description": "",
+      "url": "https://github.com/kendallowilliams/Inventory"
+    }]
+  }, {
+    "title": "Video Player",
+    "subtitle": "Play TV shows",
+    "description": "HTML5/CSS/JavaScript frontend with a C/MySQL/BASH backend running on an Apache server.",
+    "links": [{
+      "name": "KOWflix",
+      "description": "",
+      "url": "https://www.kowmylk.com/video_player_portfolio"
+    }, {
+      "name": "GitHub",
+      "description": "",
+      "url": "https://github.com/kendallowilliams/VideoPlayer"
+    }]
+  }, {
+    "title": "Music Library",
+    "subtitle": "Play and manage music",
+    "description": "HTML5/CSS/Javascript frontend with a C++/SQLite backend running on an Apache server.",
+    "links": [{
+      "name": "KOW Moosic",
+      "description": "",
+      "url": "https://www.kowmylk.com/music_player_portfolio"
+    }, {
+      "name": "GitHub",
+      "description": "",
+      "url": "https://github.com/kendallowilliams/MusicLibrary"
+    }]
+  }]
+}
