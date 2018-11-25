@@ -1,7 +1,7 @@
 {
     "experience": [
         { "key": "NextGen Healthcare", "value": "Software Engineer, EDI (2016...)" },
-        { "key": "Greenway Health", "value": "Software Engineer  (2014-2016)" }
+        { "key": "Greenway Health", "value": "Software Engineer (2014-2016)" }
     ],
     "education": [
         { "key": "Kennesaw State University", "value": "Bachelor of Science in Computer Science (2011-2013)" },
@@ -12,6 +12,6 @@
         { "key": "Languages", "value": "C/C++, C#, VB, JavaScript, HTML5, CSS3, jQuery, and TypeScript" },
         { "key": "Databases", "value": "MySQL and MSSQL" },
         { "key": "Tools", "value": "Visual Studio, VS Code, Eclipse, Fiddler, VirtualBox, Postman, SoapUI, NetBeans, Git, and Sourcetree" },
-        { "key": "Technologies", "value": "AJAX, .NET, Json, IIS, MVVM, MEF, NUnit, Moq, Angular, NuGet, HTTP, Apache, Restful Web Services, ASMX, ASPX, and WPF" }
+        { "key": "Technologies", "value": "AJAX, .NET, Json, Bootstrap, IIS, MVVM, MEF, NUnit, Moq, Angular, NuGet, HTTP, Apache, Restful Web Services, ASMX, ASPX, and WPF" }
     ]
 }

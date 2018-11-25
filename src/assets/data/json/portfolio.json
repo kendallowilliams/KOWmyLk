@@ -19,7 +19,7 @@
       "url": "https://www.kowmylk.com/cgi-bin/reset_store.sh"
     }, {
       "name": "GitHub",
-      "description": "",
+      "description": "GitHub (Inventory)",
       "url": "https://github.com/kendallowilliams/Inventory"
     }]
   }, {
@@ -28,24 +28,24 @@
     "description": "HTML5/CSS/JavaScript frontend with a C/MySQL/BASH backend running on an Apache server.",
     "links": [{
       "name": "KOWflix",
-      "description": "",
+      "description": "Browse and play video",
       "url": "https://www.kowmylk.com/video_player_portfolio"
     }, {
       "name": "GitHub",
-      "description": "",
+      "description": "GitHub (VideoPlayer)",
       "url": "https://github.com/kendallowilliams/VideoPlayer"
     }]
   }, {
-    "title": "Music Library",
+    "title": "Music Library [Incomplete]",
     "subtitle": "Play and manage music",
-    "description": "HTML5/CSS/Javascript frontend with a C++/SQLite backend running on an Apache server.",
+    "description": "HTML5/CSS/Javascript frontend with a C++/SQLite backend running on an Apache server. Based on Windows 8 music player.",
     "links": [{
       "name": "KOW Moosic",
-      "description": "",
+      "description": "Browse and play music",
       "url": "https://www.kowmylk.com/music_player_portfolio"
     }, {
       "name": "GitHub",
-      "description": "",
+      "description": "GitHub (MusicLibrary)",
       "url": "https://github.com/kendallowilliams/MusicLibrary"
     }]
   }]
