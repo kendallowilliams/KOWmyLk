@@ -8,11 +8,11 @@
     "links": [{
       "name": "Browse",
       "description": "Browse inventory and contact admin",
-      "url": "http://www.kowmylk.com:81"
+      "url": "http://www.kowmylk.com/portfolio/inventory/index.html"
     }, {
       "name": "Admin",
       "description": "Manage inventory and users (user: kow, password: kow)",
-      "url": "http://www.kowmylk.com:81/admin.html"
+      "url": "http://www.kowmylk.com/portfolio/inventory/admin.html"
     }, {
       "name": "Reset",
       "description": "Click to reset data",
@@ -29,7 +29,7 @@
     "links": [{
       "name": "KOWflix",
       "description": "Browse and play video",
-      "url": "https://www.kowmylk.com/video_player_portfolio"
+      "url": "https://www.kowmylk.com/portfolio/video_player_portfolio"
     }, {
       "name": "GitHub",
       "description": "GitHub (VideoPlayer)",
@@ -42,7 +42,7 @@
     "links": [{
       "name": "KOW MOOsic",
       "description": "Browse and play music",
-      "url": "https://www.kowmylk.com/music_player_portfolio"
+      "url": "https://www.kowmylk.com/portfolio/music_player_portfolio"
     }, {
       "name": "GitHub",
       "description": "GitHub (MusicLibrary)",
