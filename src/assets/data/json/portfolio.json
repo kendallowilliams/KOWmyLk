@@ -2,27 +2,6 @@
   "title": "",
   "description": "",
   "projects": [{
-    "title": "Inventory Management",
-    "subtitle": "Browse and manage inventory",
-    "description": "HTML/CSS/JavaScript frontend with C/MySQL backend running on an Apache server.",
-    "links": [{
-      "name": "Browse",
-      "description": "Browse inventory and contact admin",
-      "url": "http://www.kowmylk.com/portfolio/inventory/index.html"
-    }, {
-      "name": "Admin",
-      "description": "Manage inventory and users (user: kow, password: kow)",
-      "url": "http://www.kowmylk.com/portfolio/inventory/admin.html"
-    }, {
-      "name": "Reset",
-      "description": "Click to reset data",
-      "url": "https://www.kowmylk.com/cgi-bin/reset_store.sh"
-    }, {
-      "name": "GitHub",
-      "description": "GitHub (Inventory)",
-      "url": "https://github.com/kendallowilliams/Inventory"
-    }]
-  }, {
     "title": "Video Player",
     "subtitle": "Play TV shows",
     "description": "HTML5/CSS/JavaScript frontend with a C/MySQL/BASH backend running on an Apache server.",
