@@ -14,18 +14,5 @@
       "description": "GitHub (VideoPlayer)",
       "url": "https://github.com/kendallowilliams/VideoPlayer"
     }]
-  }, {
-    "title": "Music Library [Incomplete]",
-    "subtitle": "Play and manage music",
-    "description": "HTML5/CSS/Javascript frontend with a C++/SQLite backend running on an Apache server. Based on Windows 8 music player.",
-    "links": [{
-      "name": "KOW MOOsic",
-      "description": "Browse and play music",
-      "url": "https://www.kowmylk.com/portfolio/music_player_portfolio"
-    }, {
-      "name": "GitHub",
-      "description": "GitHub (MusicLibrary)",
-      "url": "https://github.com/kendallowilliams/MusicLibrary"
-    }]
   }]
 }
