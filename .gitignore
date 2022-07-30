@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/KOWmyLk.WebUI/wwwroot/lib/app/app.js
+/KOWmyLk.WebUI/.config
