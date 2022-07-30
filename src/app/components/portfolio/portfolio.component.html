@@ -1,9 +1,0 @@
-<h4 class="m-1">Projects</h4>
-<div class="card d-inline-flex bg-light m-1" style="width: 20rem;" *ngFor="let project of (portfolio$ | async)?.projects">
-  <div class="card-body">
-    <h5 class="card-title">{{project.title}}</h5>
-    <h6 class="card-subtitle mb-2 text-muted">{{project.subtitle}}</h6>
-    <p class="card-text">{{project.description}}</p>
-    <a href="{{link.url}}" class="card-link" *ngFor="let link of project.links" target="_blank" data-placement="top" data-toggle="tooltip" title="{{link.description}}">{{link.name}}</a>
-  </div>
-</div>
