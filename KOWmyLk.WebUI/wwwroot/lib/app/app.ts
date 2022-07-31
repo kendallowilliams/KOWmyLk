@@ -9,6 +9,5 @@ export default class App {
     }
 
     private initializeControls(): void {
-        $('[data-bs-toggle="popover"]').popover();
     }
 }
