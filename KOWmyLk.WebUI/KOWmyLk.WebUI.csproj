@@ -29,4 +29,31 @@
     <TypeScriptCompile Include="wwwroot\lib\app\app.ts" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\images\KOWMoosic\0_Music_Albums.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\KOWMoosic\0_Music_Artists.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\KOWMoosic\0_Music_Darkmode.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\KOWMoosic\0_Music_Songs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\KOWMoosic\1_Podcasts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\KOWMoosic\2_Television.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\KOWMoosic\3_Playlists.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\KOWMoosic\4_Player.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
