@@ -1,10 +1,54 @@
 ﻿@page
 @model IndexModel
+
 @{
-    ViewData["Title"] = "Home page";
+    string uniqueId = $"carousel_{ Guid.NewGuid().ToString("N")}";
+    int cardWidth = 400;
+
+    ViewData["Title"] = "Portfolio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div>
+    <h2 class="text-center">Portfolio</h2>
+    <hr />
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: @(cardWidth)px">
+                <div class="card-body">
+                    <h5 class="card-title">KOW Moosic</h5>
+                    <h6 class="card-subtitle text-muted">Media Library</h6>
+                    <p class="card-text">Description...</p>
+                    <div id="@uniqueId" class="carousel slide carousel-dark" data-bs-ride="false" data-carousel="KOWMoosic">
+                        <div class="carousel-indicators">
+                            @foreach (var image in Model.KOWMoosicCarouselImages)
+                            {
+                                <button type="button" data-bs-target="#@uniqueId" data-bs-slide-to="@image.Index" class="@(image.Index == 0 ? "active" : string.Empty)"></button>
+                            }
+                        </div>
+                        <div class="carousel-inner">
+                            @foreach (var image in Model.KOWMoosicCarouselImages)
+                            {
+                                <div class="carousel-item @(image.Index == 0 ? "active" : string.Empty)" data-light-mode="@image.IsLightMode">
+                                    <a href="@image.Url" target="_blank">
+                                        <img src="data:image/png;base64,@image.Base64" class="d-block w-100" alt="@image.Title" loading="lazy" />
+                                    </a>
+                                </div>
+                            }
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#@uniqueId" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#@uniqueId" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/kendallowilliams/MediaLibrary.Core">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

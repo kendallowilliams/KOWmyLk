@@ -3,5 +3,17 @@
   "name": "asp.net",
   "private": true,
   "devDependencies": {
+    "gulp": "latest",
+    "gulp-typescript": "latest",
+    "typescript": "latest",
+    "@types/jquery": "latest",
+    "@types/bootstrap": "5.2.0"
+  },
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-typescript": "latest",
+    "typescript": "latest",
+    "jquery": "latest",
+    "bootstrap": "5.2.0"
   }
 }

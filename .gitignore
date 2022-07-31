@@ -5,3 +5,4 @@
 /.vs
 /KOWmyLk.WebUI/wwwroot/lib/app/app.js
 /KOWmyLk.WebUI/.config
+/package-lock.json

@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/KOWmyLk.WebUI.styles.css" asp-append-version="true" />
 </head>
-<body>
+<body class="d-flex flex-column">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                <a class="navbar-brand" href="https://github.com/kendallowilliams/KOWmyLk" target="_blank">
                     <img src="images/logo.png" alt="KOWmyLk logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -32,7 +32,7 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container flex-fill overflow-auto">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -44,8 +44,6 @@
         </div>
     </footer>
 
-    <script src="~/lib/jquery/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/lib/require.js/require.min.js"></script>
     
